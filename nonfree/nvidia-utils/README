@@ -17,7 +17,7 @@ OR
 
 3/ Extract somewhere the Archive of your NVIDIA packager and enter into it
 
-  $ sh /srv/sources/NVIDIA-Linux-x86_64-384.59.run --extract-only
+  $ sh NVIDIA-Linux-x86_64-384.59.run --extract-only
 
 4/ compile and install the modules for your NVIDIA Cards
 
