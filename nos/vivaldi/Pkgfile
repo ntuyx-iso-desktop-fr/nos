@@ -5,7 +5,7 @@ url="https://vivaldi.com"
 packager="greg<greg@nutyx.org>"
 
 name=vivaldi
-version=1.12.955.42
+version=1.13.1008.32
 vffmepg=60.0.3112.90-1
 release=1
 run=(gtk3 nss xorg-libxtst gconf xorg-libx11 freetype freefont-ttf desktop-file-utils shared-mime-info alsa-lib hicolor-icon-theme)
