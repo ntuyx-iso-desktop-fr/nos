@@ -5,7 +5,7 @@ packager="greg<greg@nutyx.org>"
 
 
 name=nvidia-utils
-version=378.13
+version=384.98
 release=1
 
 [ "$PKGMK_ARCH" == "i686"   ] && _ARCH=x86
