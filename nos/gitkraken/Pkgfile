@@ -2,10 +2,10 @@ description="The intuitive, fast, and beautiful cross-platform Git client."
 url="https://www.gitkraken.com/"
 packager="greg<greg@nutyx.org>"
 
-# Depends on: gtk2 nss xorg-libxtst libgnome-keyring gconf alsa-lib xorg-libx11 openssl10 
+# Depends on: gtk2 nss xorg-libxtst libgnome-keyring gconf alsa-lib xorg-libx11 openssl10 rtmpdump
 
 name=gitkraken
-version=3.0.0
+version=3.3.3
 release=1
 
 source=(https://release.gitkraken.com/linux/v$version.tar.gz
