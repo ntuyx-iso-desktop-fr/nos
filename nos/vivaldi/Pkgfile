@@ -5,15 +5,17 @@ url="https://vivaldi.com"
 packager="greg<greg@nutyx.org>"
 
 name=vivaldi
-version=1.13.1008.34
-vffmepg=60.0.3112.90-1
+_name=vivaldi-ffmpeg-codecs
+version=1.13.1008.44
+_version=62.0.3202.97-1
 release=1
+
 run=(gtk3 nss xorg-libxtst gconf xorg-libx11 freetype freefont-ttf desktop-file-utils shared-mime-info alsa-lib hicolor-icon-theme)
 
+#https://repo.herecura.eu/herecura/x86_64/$_name-$_version-x86_64.pkg.tar.xz
 
-source=(https://downloads.vivaldi.com/stable/$name-stable-$version-1.x86_64.rpm)
-#https://repo.herecura.eu/herecura/x86_64/$name-ffmpeg-codecs-$vffmepg-x86_64.pkg.tar.xz
-
+source=(https://downloads.vivaldi.com/stable/$name-stable-$version-1.x86_64.rpm
+libffmpeg.so)
 
 build() {
     
@@ -35,6 +37,6 @@ build() {
             $PKG/usr/share/icons/hicolor/${res}x${res}/apps/vivaldi.png
     done
     
-    
+    cp $SRC/libffmpeg.so $PKG/opt/vivaldi/libffmpeg.so 
 }
 
