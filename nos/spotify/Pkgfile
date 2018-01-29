@@ -6,9 +6,9 @@ packager="greg<greg@nutyx.org>"
 contributors=""
 
 name=spotify
-version=1.0.67.582
-_autreversion=.g19436fa3
-_amd64_release=28
+version=1.0.70.399
+_autreversion=.g5ffabd56
+_amd64_release=26
 release=1
 
 source=(http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_${version}${_autreversion}-${_amd64_release}_amd64.deb
