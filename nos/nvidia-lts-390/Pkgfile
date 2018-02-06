@@ -1,4 +1,4 @@
-# Depends on: kernel-lts-nvidia-384
+# Depends on: kernel-lts-nvidia-390
 description="NVIDIA drivers utilities and links"
 url="http://www.nvidia.com/"
 contributors="tnut"
@@ -71,5 +71,4 @@ EOF
    # Blacklist 
    mkdir -p $PKG/etc/modprobe.d
    echo "blacklist nouveau" > $PKG/etc/modprobe.d/nouveau.conf
-
 }
