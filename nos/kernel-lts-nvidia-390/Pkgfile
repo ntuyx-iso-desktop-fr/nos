@@ -35,5 +35,5 @@ install -D -m644 "$SRC/NVIDIA-Linux-x86_64-$version/kernel/nvidia-uvm.ko" \
 gzip $PKG$modfolder/*.ko
 
 }
-echo "depmod -a `uname -r`" > kernel-lts-nvidia-390.post-install
+echo "depmod -a `basename /lib/modules/*`" > kernel-lts-nvidia-390.post-install
 
