@@ -38,5 +38,5 @@ install -D -m644 "$SRC/NVIDIA-Linux-x86_64-$version/kernel/uvm/nvidia-uvm.ko" \
 gzip $PKG$modfolder/*.ko
 
 }
-echo "depmod -a `uname -r`" > kernel-lts-nvidia-340.post-install
+echo "depmod -a `basename /lib/modules/*`" > kernel-lts-nvidia-340.post-install
 
