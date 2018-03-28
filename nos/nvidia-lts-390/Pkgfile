@@ -7,7 +7,7 @@ packager="remy<remy@nutyx.org>"
 run=(kernel-lts-nvidia-390)
 
 name=nvidia-lts-390
-version=390.25
+version=390.48
 
 [ "$PKGMK_ARCH" == "i686"   ] && _ARCH=x86
 [ "$PKGMK_ARCH" == "x86_64"   ] && _ARCH=x86_64

@@ -71,5 +71,4 @@ EOF
    # Blacklist 
    mkdir -p $PKG/etc/modprobe.d
    echo "blacklist nouveau" > $PKG/etc/modprobe.d/nouveau.conf
-
 }
