@@ -7,7 +7,7 @@ contributors=""
 packager="remy <remy@nutyx.org>"
 
 name=kernel-lts-nvidia-390
-version=390.48
+version=390.25
 modfolder=/lib/modules/`uname -r`/kernel/drivers/video
 
 source=(http://fr.download.nvidia.com/XFree86/Linux-x86_64/$version/NVIDIA-Linux-x86_64-$version.run)
